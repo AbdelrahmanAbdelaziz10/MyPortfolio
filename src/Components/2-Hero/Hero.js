@@ -66,9 +66,18 @@ export const Hero = () => {
               className="btn2"
               href="/Abdelrahman-Abdelaziz-Resume.pdf"
               download="Abdelrahman_Abdelaziz_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               DOWNLOAD CV <FaCloudDownloadAlt className="down_icon" />
             </a>
+            {/* <a
+              className="btn2"
+              href="/Abdelrahman-Abdelaziz-Resume.pdf"
+              download="Abdelrahman_Abdelaziz_CV.pdf"
+            >
+              DOWNLOAD CV <FaCloudDownloadAlt className="down_icon" />
+            </a> */}
           </div>
         </Col>
         <Col xs="" lg="5" md="6" sm="0" className="pt-lg-0 pt-md-5">

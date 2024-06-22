@@ -40,10 +40,19 @@ const About = () => {
               <a
                 className="btn2"
                 href="/Abdelrahman-Abdelaziz-Resume.pdf"
-                download="Abdelrahman_Abdelaziz_CV"
+                download="Abdelrahman_Abdelaziz_CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 DOWNLOAD CV <FaCloudDownloadAlt className="down_icon" />
               </a>
+              {/* <a
+                className="btn2"
+                href="/Abdelrahman-Abdelaziz-Resume.pdf"
+                download="Abdelrahman_Abdelaziz_CV"
+              >
+                DOWNLOAD CV <FaCloudDownloadAlt className="down_icon" />
+              </a> */}
             </div>
           </div>
         </Col>
